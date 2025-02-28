@@ -1,3 +1,12 @@
 body{
     font-family: "Poppins", sans-serif;
+    padding: 0px 20px;
+}
+
+section>div{
+    padding: 24px;
+}
+
+.discover{
+background: linear-gradient(91.74deg, #3752FD 0.25%, #6C7FFA 52.64%, #9BA8F8 99.84%);
 }
