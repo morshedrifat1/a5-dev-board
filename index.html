@@ -18,16 +18,17 @@
     <!-- tailwind css cdn -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
   </head>
-  <body class="max-w-[1536px] bg-[#f4f7ff] mx-auto my-6">
+  <body class="max-w-[1536px] bg-[#f4f7ff] mx-auto">
     <!-- header section -->
     <header class="bg-white rounded-2xl">
       <nav class="flex items-center justify-between py-4 px-5 gap-3">
         <div class="logo">
+            <a href="index.html">
           <img
             class="w-[130px] sm:w-[180px] md:w-[240px]"
             src="img/header-logo.png"
             alt=""
-          />
+          /></a>
         </div>
         <div class="flex items-center gap-3">
           <div
@@ -63,8 +64,7 @@
 
 
         <!-- task discover section -->
-
-        <div class="discover rounded-xl mt-6 grid items-center sm:mt-0 sm:col-span-4 sm:row-start-2 2xl:col-span-2 2xl:col-start-2 2xl:row-start-1">
+        <div onclick="window.location.href='blog.html'" class="discover rounded-xl mt-6 grid items-center sm:mt-0 sm:col-span-4 sm:row-start-2 2xl:col-span-2 2xl:col-start-2 2xl:row-start-1 cursor-pointer">
             <div class="flex items-center gap-5 p-4 sm:p-5 sm:px-10">
                 <img class="w-10 sm:w-16" src="img/board.png" alt="">
                 <p class="text-base sm:text-xl text-white">Discover Something <br> New Today!</p>
