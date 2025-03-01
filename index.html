@@ -17,23 +17,23 @@
     <!-- tailwind css cdn -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
   </head>
-  <body class="max-w-[1536px] bg-[#f4f7ff] mx-auto">
+  <body class="max-w-[1536px] bg-[#f4f7ff] mx-auto my-6">
     <!-- header section -->
-    <header class="bg-white rounded-2xl mt-6">
+    <header class="bg-white rounded-2xl">
       <nav class="flex items-center justify-between py-4 px-5 gap-3">
         <div class="logo">
           <img
-            class="w-[130px] sm:w-[240px]"
+            class="w-[130px] sm:w-[180px] md:w-[240px]"
             src="img/header-logo.png"
             alt=""
           />
         </div>
         <div class="flex items-center gap-3">
           <div
-            class="flex items-center gap-3 sm:gap-7 bg-[#F4F7FF] px-3 py-2 sm:px-4 sm:py-4 md:px-6 rounded-full"
+            class="flex items-center gap-3 sm-gap-5 md:gap-7 bg-[#F4F7FF] px-3 py-2 sm:px-4 sm:py-4 md:px-6 rounded-full"
           >
-            <img class="w-4 sm:w-8" src="img/checkbox.png" alt="" />
-            <p class="text-base sm:text-3xl font-bold">23</p>
+            <img class="w-4 sm:w-6 md:w-8" src="img/checkbox.png" alt="" />
+            <p class="text-base sm:text-xl md:text-3xl font-bold">23</p>
           </div>
           <div class="bg-[#F4F7FF] p-2 sm:p-3 rounded-full">
             <img class="w-7 sm:w-10" src="img/theme-btn.png" alt="" />
@@ -43,8 +43,8 @@
     </header>
 
     <!-- task section open -->
-    <section class="mt-5">
-      <div class="bg-white rounded-2xl sm:grid sm:grid-cols-2 sm:grid-rows-2 gap-6 xl:grid-cols-3 xl:grid-rows-1">
+    <section class="mt-5 bg-white rounded-2xl pb-6">
+      <div class="sm:grid sm:grid-cols-2 sm:grid-rows-2 gap-6 xl:grid-cols-3 xl:grid-rows-1 p-6">
         <!-- task header -->
 
          <div class="bg-[#F4F7FF] p-6 rounded-xl col-span-1 grid items-center">
@@ -82,9 +82,104 @@
                 </div>
             </div>
          </div>
-        
 
       </div>
+        
+      <!-- border -->
+      <div class="p-0 w-full h-[0.8px] bg-[repeating-linear-gradient(to_right,#d7dcff_0px,#d7dcff_10px,transparent_10px,transparent_20px)]"></div>
+
+      <!-- task list open -->
+
+      <div class="px-6 mt-6 gap-5 xl:gap-9 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3">
+
+
+        <div class="bg-[#f4f7ff] p-6 rounded-2xl">
+            <p class="bg-white inline-block px-5 py-2 text-[#00303C] rounded-lg">ShopEase</p>
+            <h3 class="text-2xl font-medium text-[#00303C] mt-4">Fix Mobile Button Issue </h3>
+            <div class="bg-white p-4 rounded-2xl mt-4"><p class="text-[#808080] text-base">Debug using Chrome DevTools, check for overlappin</p></div>
+            <div class="p-0 mt-3 w-full h-[0.8px] bg-[repeating-linear-gradient(to_right,#d7dcff_0px,#d7dcff_10px,transparent_10px,transparent_20px)]"></div>
+            <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between mt-3">
+                <div>
+                    <p class="text-sm text-[#00303C]">Deadline</p>
+                    <p class="text-base font-medium text-[#00303C]">21 March 2025</p>
+                </div>
+                <button class="text-base font-medium text-white bg-[#3752fd] px-4 py-2 rounded-lg">Completed</button>
+            </div>
+        </div>
+
+        <div class="bg-[#f4f7ff] p-6 rounded-2xl">
+            <p class="bg-white inline-block px-5 py-2 text-[#00303C] rounded-lg">CloudSync</p>
+            <h3 class="text-2xl font-medium text-[#00303C] mt-4">Add Dark Mode</h3>
+            <div class="bg-white p-4 rounded-2xl mt-4"><p class="text-[#808080] text-base">Store the user's preference in localStorage, update CSS varia</p></div>
+            <div class="p-0 mt-3 w-full h-[0.8px] bg-[repeating-linear-gradient(to_right,#d7dcff_0px,#d7dcff_10px,transparent_10px,transparent_20px)]"></div>
+            <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between mt-3">
+                <div>
+                    <p class="text-sm text-[#00303C]">Deadline</p>
+                    <p class="text-base font-medium text-[#00303C]">21 March 2025</p>
+                </div>
+                <button class="text-base font-medium text-white bg-[#3752fd] px-4 py-2 rounded-lg">Completed</button>
+            </div>
+        </div>
+
+        <div class="bg-[#f4f7ff] p-6 rounded-2xl">
+            <p class="bg-white inline-block px-5 py-2 text-[#00303C] rounded-lg">SwiftPay</p>
+            <h3 class="text-2xl font-medium text-[#00303C] mt-4">Optimize  Home page</h3>
+            <div class="bg-white p-4 rounded-2xl mt-4"><p class="text-[#808080] text-base">Debug using Chrome DevTools, check for overlappin</p></div>
+            <div class="p-0 mt-3 w-full h-[0.8px] bg-[repeating-linear-gradient(to_right,#d7dcff_0px,#d7dcff_10px,transparent_10px,transparent_20px)]"></div>
+            <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between mt-3">
+                <div>
+                    <p class="text-sm text-[#00303C]">Deadline</p>
+                    <p class="text-base font-medium text-[#00303C]">21 March 2025</p>
+                </div>
+                <button class="text-base font-medium text-white bg-[#3752fd] px-4 py-2 rounded-lg">Completed</button>
+            </div>
+        </div>
+
+
+        <div class="bg-[#f4f7ff] p-6 rounded-2xl">
+            <p class="bg-white inline-block px-5 py-2 text-[#00303C] rounded-lg">Meta</p>
+            <h3 class="text-2xl font-medium text-[#00303C] mt-4">Add new emoji 🤲</h3>
+            <div class="bg-white p-4 rounded-2xl mt-4"><p class="text-[#808080] text-base">Debug using Chrome DevTools, check for overlappin</p></div>
+            <div class="p-0 mt-3 w-full h-[0.8px] bg-[repeating-linear-gradient(to_right,#d7dcff_0px,#d7dcff_10px,transparent_10px,transparent_20px)]"></div>
+            <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between mt-3">
+                <div>
+                    <p class="text-sm text-[#00303C]">Deadline</p>
+                    <p class="text-base font-medium text-[#00303C]">21 March 2025</p>
+                </div>
+                <button class="text-base font-medium text-white bg-[#3752fd] px-4 py-2 rounded-lg">Completed</button>
+            </div>
+        </div>
+
+        <div class="bg-[#f4f7ff] p-6 rounded-2xl">
+            <p class="bg-white inline-block px-5 py-2 text-[#00303C] rounded-lg">Google LLC</p>
+            <h3 class="text-2xl font-medium text-[#00303C] mt-4">Integrate OpenAI API</h3>
+            <div class="bg-white p-4 rounded-2xl mt-4"><p class="text-[#808080] text-base">Debug using Chrome DevTools, check for overlappin</p></div>
+            <div class="p-0 mt-3 w-full h-[0.8px] bg-[repeating-linear-gradient(to_right,#d7dcff_0px,#d7dcff_10px,transparent_10px,transparent_20px)]"></div>
+            <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between mt-3">
+                <div>
+                    <p class="text-sm text-[#00303C]">Deadline</p>
+                    <p class="text-base font-medium text-[#00303C]">21 March 2025</p>
+                </div>
+                <button class="text-base font-medium text-white bg-[#3752fd] px-4 py-2 rounded-lg">Completed</button>
+            </div>
+        </div>
+
+        <div class="bg-[#f4f7ff] p-6 rounded-2xl">
+            <p class="bg-white inline-block px-5 py-2 text-[#00303C] rounded-lg">Glassdoar</p>
+            <h3 class="text-2xl font-medium text-[#00303C] mt-4">Improve Job searching</h3>
+            <div class="bg-white p-4 rounded-2xl mt-4"><p class="text-[#808080] text-base">Debug using Chrome DevTools, check for overlappin</p></div>
+            <div class="p-0 mt-3 w-full h-[0.8px] bg-[repeating-linear-gradient(to_right,#d7dcff_0px,#d7dcff_10px,transparent_10px,transparent_20px)]"></div>
+            <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between mt-3">
+                <div>
+                    <p class="text-sm text-[#00303C]">Deadline</p>
+                    <p class="text-base font-medium text-[#00303C]">21 March 2025</p>
+                </div>
+                <button class="text-base font-medium text-white bg-[#3752fd] px-4 py-2 rounded-lg">Completed</button>
+            </div>
+        </div>
+
+      </div>
+
     </section>
 
     <script src="castom-taiwind.js"></script>
