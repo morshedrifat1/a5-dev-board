@@ -8,3 +8,8 @@ body{
 .discover{
 background: linear-gradient(91.74deg, #3752FD 0.25%, #6C7FFA 52.64%, #9BA8F8 99.84%);
 }
+
+.disabled{
+    background-color: #ced6ff;
+    color:#f6f9ff;
+}
