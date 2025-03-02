@@ -16,13 +16,13 @@ let bdTime24 = new Date().toLocaleTimeString();
 // weekend name 
 function getBDDay() {
   let days = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday",
+    "Sun",
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
   ];
   let today = new Date().toLocaleString("en-US", { timeZone: "Asia/Dhaka" });
   let bdtDate = new Date(today);
