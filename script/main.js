@@ -46,6 +46,8 @@ for (let i = 0; i < allBtn.length; i++){
     })
 }
 
+
+
 // bg color change section
 
 document.getElementById("theme").addEventListener('click', function () {
@@ -59,6 +61,8 @@ document.getElementById("theme").addEventListener('click', function () {
     const themeColor = getRandomRGB();
     document.body.style.backgroundColor = themeColor;
 });
+
+
 
 
 

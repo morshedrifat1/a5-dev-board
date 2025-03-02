@@ -32,7 +32,6 @@ function getBDDay() {
 let weekendName = getBDDay();
 
 document.getElementById("weekend-date").innerText = weekendName + " ,";
-console.log(object);
 
 // date setup
 
